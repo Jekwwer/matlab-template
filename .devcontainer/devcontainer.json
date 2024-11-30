@@ -69,5 +69,6 @@
   },
   "forwardPorts": [
     8000
-  ]
+  ],
+  "postCreateCommand": "pre-commit install"
 }
