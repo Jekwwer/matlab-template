@@ -1,11 +1,47 @@
 # MATLAB Template
 
-# Licensing
+## Usage
+
+This repository is designed for use with GitHub Codespaces to streamline MATLAB development.
+
+### Prerequisites
+
+- Ensure you have access to GitHub Codespaces and a valid MATLAB license.
+- MATLAB installation and licensing are managed within the Codespaces environment via the provided Dockerfile and devcontainer.
+
+### Getting Started
+
+1. **Open in GitHub Codespaces**:
+
+   - Navigate to your repository on GitHub.
+   - Click the **Code** button and select **Codespaces**.
+   - Launch a new Codespace or resume an existing one.
+
+2. **Start the MATLAB Environment**:
+
+   - The `devcontainer` will initialize the environment with necessary tools and configurations.
+   - Run the following command to start a development server or process:
+
+     ```bash
+     make serve
+     ```
+
+3. **Access MATLAB**:
+   - If configured for MATLAB Online or a local installation within Codespaces, follow the instructions provided in the repository to authenticate and activate MATLAB.
+
+### Running MATLAB Code
+
+- Place your MATLAB scripts in the `src/` directory.
+- Use MATLAB's built-in command-line interface (CLI) or graphical interface to execute scripts or run tests.
+
+## Licensing
 
 This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ### MATLAB Licensing
+
 This repository provides tools (e.g., Dockerfile and devcontainer) and code for use with MATLAB. However:
+
 - MATLAB is proprietary software and is **not included in this repository**.
 - Users must have their own valid MATLAB license to use this project.
 - Refer to [MathWorks Licensing](https://www.mathworks.com/help/install/license-overview.html) for more information.
