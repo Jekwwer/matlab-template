@@ -1,0 +1,73 @@
+{
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "bmewburn.vscode-intelephense-client",
+        "catppuccin.catppuccin-vsc",
+        "catppuccin.catppuccin-vsc-icons",
+        "dbaeumer.vscode-eslint",
+        "editorconfig.editorconfig",
+        "esbenp.prettier-vscode",
+        "streetsidesoftware.code-spell-checker",
+        "github.copilot",
+        "github.copilot-chat",
+        "github.vscode-github-actions",
+        "github.vscode-pull-request-github",
+        "MathWorks.language-matlab",
+        "ms-azuretools.vscode-docker",
+        "ms-vscode.makefile-tools",
+        "ms-vscode-remote.remote-containers",
+        "redhat.vscode-yaml"
+      ],
+      "settings": {
+        "[dockerfile]": {
+          "editor.rulers": [
+            120
+          ]
+        },
+        "[json]": {
+          "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
+        "[markdown]": {
+          "editor.defaultFormatter": "esbenp.prettier-vscode",
+          "editor.rulers": [
+            120
+          ]
+        },
+        "[yaml]": {
+          "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
+        "editor.bracketPairColorization.enabled": true,
+        "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+        "editor.fontSize": 14,
+        "editor.formatOnPaste": true,
+        "editor.formatOnSave": true,
+        "editor.rulers": [
+          88
+        ],
+        "files.autoSave": "afterDelay",
+        "files.autoSaveWhenNoErrors": true,
+        "terminal.integrated.shell.linux": "/bin/bash",
+        "workbench.activityBar.location": "top",
+        "workbench.colorTheme": "Catppuccin Macchiato",
+        "workbench.iconTheme": "catppuccin-macchiato",
+        "yaml.format.enable": true
+      }
+    }
+  },
+  "name": "jekwwer/matlab-template",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "hostRequirements": {
+    "cpus": 4
+  },
+  "portsAttributes": {
+    "8000": {
+      "label": "MATLAB Server"
+    }
+  },
+  "forwardPorts": [
+    8000
+  ]
+}
