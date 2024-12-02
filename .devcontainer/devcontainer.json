@@ -21,18 +21,14 @@
       ],
       "settings": {
         "[dockerfile]": {
-          "editor.rulers": [
-            120
-          ]
+          "editor.rulers": [120]
         },
         "[json]": {
           "editor.defaultFormatter": "esbenp.prettier-vscode"
         },
         "[markdown]": {
           "editor.defaultFormatter": "esbenp.prettier-vscode",
-          "editor.rulers": [
-            120
-          ]
+          "editor.rulers": [120]
         },
         "[yaml]": {
           "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -42,9 +38,7 @@
         "editor.fontSize": 14,
         "editor.formatOnPaste": true,
         "editor.formatOnSave": true,
-        "editor.rulers": [
-          88
-        ],
+        "editor.rulers": [88],
         "files.autoSave": "afterDelay",
         "files.autoSaveWhenNoErrors": true,
         "terminal.integrated.shell.linux": "/bin/bash",
@@ -67,8 +61,6 @@
       "label": "MATLAB Server"
     }
   },
-  "forwardPorts": [
-    8000
-  ],
-  "postCreateCommand": "pre-commit install"
+  "forwardPorts": [8000],
+  "postCreateCommand": "pip install pre-commit && pre-commit install"
 }
