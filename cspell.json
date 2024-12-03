@@ -2,6 +2,6 @@
   "version": "0.2",
   "language": "en",
   "useGitignore": true,
-  "words": ["Evgenii", "Jekwwer", "Shiliaev"],
+  "words": ["codespace", "codespaces", "Evgenii", "Jekwwer", "Shiliaev"],
   "ignorePaths": ["*.json", "*.yaml", "*.yml", ".*"]
 }
