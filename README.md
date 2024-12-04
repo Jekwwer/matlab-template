@@ -38,6 +38,22 @@ This repository is designed for use with GitHub Codespaces to streamline MATLAB 
 - Place your MATLAB scripts in the `src/` directory.
 - Use MATLAB's graphical interface to execute scripts or run tests.
 
+## Tools and Scripts
+
+### Unified Workflow
+
+- **`tools/run_all_checks.m`**: Automates linting, formatting, testing, and coverage reporting in a single command.
+
+### Linting and Formatting
+
+- **`tools/lint_code.m`**: Scans MATLAB files for potential issues using `checkcode`.
+- **`tools/format_code.m`**: Ensures consistent coding style by applying MATLAB's built-in formatting.
+
+### Testing
+
+- **`tools/run_tests.m`**: Executes unit tests located in the `tests` folder.
+- **`tools/run_tests_with_coverage.m`**: Runs tests and generates a Cobertura-style code coverage report.
+
 ## Licensing
 
 This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
